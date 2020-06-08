@@ -23,6 +23,7 @@ sudo apt-get install -y php7.2-xmlrpc php7.2-mcrypt
 sudo apt-get install -y php7.2-mysql
 sudo apt-get install -y php7.2-gd php7.2-xml php7.2-cli
 sudo apt-get install -y php7.2-zip
+sudo apt-get install -y php-fpm php-json
 
 sudo sed -i 's/memory_limit = 128M/memory_limit = 512M/' /etc/php/7.1/apache2/php.ini
 sudo sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 128M/' /etc/php/7.1/apache2/php.ini
