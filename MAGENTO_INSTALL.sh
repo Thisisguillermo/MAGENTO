@@ -14,6 +14,8 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
+sudo apt-get install -y curl
+
 # Installing and enbaling apache2
 sudo apt-get install -y apache2
 sudo systemctl start apache2.service
